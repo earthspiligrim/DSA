@@ -1,0 +1,9 @@
+
+ArrayList Methods
+    add() --> adding an element to the list
+
+
+Sorting of a list in java 8
+https://mkyong.com/java8/java-8-how-to-sort-list-with-stream-sorted/
+
+Arrays.sort(arrayVariable, (eachValue) -> )

@@ -1,22 +1,6 @@
-//class TreeNode {
-//    int val;
-//    TreeNode left;
-//    TreeNode right;
-//
-//    TreeNode() {
-//    }
-//
-//    TreeNode(int val) {
-//        this.val = val;
-//    }
-//
-//    TreeNode(int val, TreeNode left, TreeNode right) {
-//        this.val = val;
-//        this.left = left;
-//        this.right = right;
-//    }
-//
-//}
+
+package Solutions.Problem108.Nag;
+
 
 public class Problem108SortedArrayToBST {
 
@@ -36,4 +20,27 @@ public class Problem108SortedArrayToBST {
         return node;
     }
 
+    public static void main(String[] args) {
+        System.out.println("hello");
+    }
+
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+     
+        TreeNode() {
+        }
+     
+        TreeNode(int val) {
+            this.val = val;
+        }
+     
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+     
+     }
 }

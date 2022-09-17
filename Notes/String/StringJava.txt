@@ -1,0 +1,10 @@
+
+Java lo string pool concept valla string manipulation anedi complex space complexity to involve ayi untundi
+so aa string manipulation easy avaniki either StringBuilder or StringBuffer vadali, 
+
+
+StringBuilder str = new StringBuilder();
+
+str.append("");
+str.insert(0, "dddd");
+

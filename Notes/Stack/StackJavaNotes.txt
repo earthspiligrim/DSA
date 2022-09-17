@@ -1,0 +1,20 @@
+
+
+epudu marchipotunna epudu stack.size() e kadu stack.empty() function kuda chudochu
+
+Stack<Character> ans = new Stack();
+
+epudu e stack lo unna characters anni kalipi oka string tiyali ante (String.valueOf(ans));
+
+Topic: Push vs add in the stack class java
+https://stackoverflow.com/questions/15989309/java-stack-push-vs-add
+Edit: Will I encounter any issues if I use add(...) instead of push(...)?
+
+https://medium.com/@mabdallah863/stack-add-or-push-a9dad982c3c9
+
+Definitly, you will not encounter any issues, because add is part of List interface as well as the Stack, 
+but you should to notice the further readability of your code and your intentions in it by other programmers. 
+<b>push method will give them a clue that they're using the Stack object, 
+they will know certantly what to expect from. Also notice that push has different return value than add 
+(the former has "pushed object" type and the latter just a boolean response)
+<b>
